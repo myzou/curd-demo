@@ -1,4 +1,4 @@
-package com.max.curd.endpoint;
+package com.max.curd.controller;
 
 import com.max.curd.model.SystemInfo;
 import com.max.curd.service.SystemInfoService;
