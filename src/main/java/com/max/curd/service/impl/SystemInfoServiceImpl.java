@@ -56,6 +56,7 @@ public class SystemInfoServiceImpl implements SystemInfoService {
         } else {
             --pageNumber;
         }
+        //替代方法
         Pageable pageable = new PageRequest(pageNumber, sizeNumber);
         Page<SystemInfo> page = systemInfoDao.findAll(pageable);
         return page;
