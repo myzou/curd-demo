@@ -1,6 +1,6 @@
 # curd-demo
 Spring boot + vue + ElementUI项目
-jdk最好1.8
+jdk最好1.8     
 
 数据库:mysql（可以自行更换）
 
